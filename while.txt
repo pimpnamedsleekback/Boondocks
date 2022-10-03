@@ -1,7 +1,8 @@
-i = 100
+i=int(input())
 while i >1:
    print(i)
-   if i==500:
+   if i>=500:
+   print("Breaking this loop...")
       break
    i += 100
    print("Kwisha!")
